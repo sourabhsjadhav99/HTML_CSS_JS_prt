@@ -1,0 +1,47 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+#main-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 5px solid greenyellow;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: large;
+    margin: 5px;
+
+}
+#startTimer{
+    background-color: green;
+    border: 1px solid green;
+}
+#pauseTimer{
+    background-color: red;
+    border: 1px solid red;
+}
+#resetTimer{
+    background-color: orange;
+    border: 1px solid orange;
+}
+.lap{
+    background-color: slateblue;
+    border: 1px solid slateblue;
+}
+button:hover{
+    transform: scale(110%,110%);
+
+}
+ol{
+    font-size: larger;
+    list-style-type: none;
+}
